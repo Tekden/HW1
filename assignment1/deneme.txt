@@ -1,0 +1,11 @@
+Up to a certain point, ‘checking that it seems to work’ will be a satisfactory test. In a more sophisticated application,
+you might have dozens of complex interactions between components.
+A change in any of those components could have unexpected consequences on the application’s behavior. Checking
+that it still ‘seems to work’ could mean running through your code’s functionality with twenty different variations of
+your test data just to make sure you haven’t broken something - not a good use of your time.
+That’s especially true when automated tests could do this for you in seconds. If something’s gone wrong, tests will
+also assist in identifying the code that’s causing the unexpected behavior.
+Sometimes it may seem a chore to tear yourself away from your productive, creative programming work to face the
+unglamorous and unexciting business of writing tests, particularly when you know your code is working properly.
+However, the task of writing tests is a lot more fulfilling than spending hours testing your application manually or
+trying to identify the cause of a newly-introduced problem.
